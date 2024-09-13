@@ -33,7 +33,7 @@ function updateContent() {
     counter++;
 
     // Decrease the delay for the next iteration (e.g., by 100 milliseconds)
-    delay += 22;
+    delay += 15;
 
     // Schedule the next execution
     setTimeout(updateContent, delay);
