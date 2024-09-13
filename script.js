@@ -17,7 +17,7 @@ let delay = 10; // Initial delay in milliseconds
 let counter = 0;
 
 function updateContent() {
-    if (counter >= 30) {
+    if (counter >= 15) {
         counter = 0;
         delay = 1;
         return; // Stop the execution after 18 updates
