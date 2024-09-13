@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.5rem;
+    margin: 0;
+    overflow: hidden;
+    background-color: #cfc7e7
+}
+
+.result {
+    /* border-style: dotted; */
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    flex-direction: column;
+    align-items: center; /* Vertically centers the content */
+    height: 100vh;
+}
+
+
+.attr{
+    color: #33275b;
+    list-style: none;
+    display: flex;
+    gap: 5%;
+    user-select: none;
+    white-space: nowrap;
+    margin-bottom: 0em;
+
+}
+
+button{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2rem;
+    background-color: pink;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 2em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 5.5%;
+    cursor: pointer;
+    transition: ease-in 0.3s, background-color 0s;
+}
+
+button:hover{
+    border-radius: 0;
+    color: #cf6275;
+}
+
+
+button:active{
+    background-color: #bb4c5e;
+    color: white;
+    transition: none;
+}
